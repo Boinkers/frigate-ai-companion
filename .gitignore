@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+
+# AI Models (We don't want to upload huge models to GitHub)
+*.pt
+*.onnx
+models/
+
+# Database files
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Application Image Data
+snapshots/
